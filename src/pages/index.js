@@ -21,4 +21,4 @@ const IndexPage = () =>
     <Footer />
   </div>
 
-export default IndexPage
+export default IndexPage;
