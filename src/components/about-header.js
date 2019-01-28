@@ -24,7 +24,7 @@ const AboutHeader = () =>
             </a>
             <a href='http://xavierduncan.com/blog' target='_blank' style={{ padding: '0.750em 0.750em' }}>
               <u style={{ color: '#4298C1' }}>
-                <span style='color: #000;'>
+                <span style={{ color: '#000' }}>
                   Writer
                 </span>
               </u>
