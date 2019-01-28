@@ -7,6 +7,7 @@ import ShortBio from '../components/short-bio';
 import FeaturedProjects from '../components/featured-projects';
 import FeaturedPosts from '../components/featured-posts';
 import BannerFooter from '../components/banner-footer';
+import Footer from '../components/footer';
 
 const IndexPage = () =>
   <div>
@@ -17,6 +18,7 @@ const IndexPage = () =>
     <FeaturedProjects />
     <FeaturedPosts />
     <BannerFooter />
+    <Footer />
   </div>
 
 export default IndexPage
