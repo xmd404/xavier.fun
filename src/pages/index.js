@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Navbar from '../components/navbar';
 import BannerHeader from '../components/banner-header';
+import Navbar from '../components/navbar';
 import Welcome from '../components/welcome';
 import ShortBio from '../components/short-bio';
 import FeaturedProjects from '../components/featured-projects';
 import FeaturedPosts from '../components/featured-posts';
+import BannerFooter from '../components/banner-footer';
 
 const IndexPage = () =>
   <div>
@@ -15,6 +16,7 @@ const IndexPage = () =>
     <ShortBio />
     <FeaturedProjects />
     <FeaturedPosts />
+    <BannerFooter />
   </div>
 
 export default IndexPage
