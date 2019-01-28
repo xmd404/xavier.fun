@@ -3,6 +3,7 @@ import React from 'react';
 const ContactForm = () =>
   <div className='container-fluid' style={{ padding: '2% 0 35px' }}>
     <div className='container'>
+      <hr/>
       <div className='row'>
         <br/>
         <div className='ten columns offset-by-one columns'>

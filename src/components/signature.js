@@ -6,7 +6,11 @@ const Signature = () =>
     <h6>
       Cheers,
       <br/>
-      <img src={ signature } width="110px" />
+      <img 
+        src={ signature }
+        alt="Xavier Duncan's signature"
+        width='110px'
+      />
       <br/>
       Xavier Duncan
     </h6>
