@@ -3,7 +3,7 @@ import React from 'react';
 import Signature from '../components/signature';
 
 const FullBio = () =>
-  <div className='container-fluid' style={{padding:'2% 0 35px'}}>
+  <div className='container-fluid' style={{ padding: '2% 0 35px' }}>
     <div className='container'>
       <hr/>
       <div className='row'>

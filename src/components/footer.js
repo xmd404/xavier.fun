@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -18,10 +19,10 @@ const Footer = () =>
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'instagram']} />
         </a>
         <a href="https://www.linkedin.com/in/xduncan" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'youtube']} />
+          <FontAwesomeIcon className='fa-footer' icon={['fab', 'linkedin']} />
         </a>
         <a href="https://medium.com/@theWebsiteKid" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'linkedin']} />
+          <FontAwesomeIcon className='fa-footer' icon={['fab', 'medium']} />
         </a>
         <a href="https://github.com/theWebsiteKid" target="_blank">
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'github']} />

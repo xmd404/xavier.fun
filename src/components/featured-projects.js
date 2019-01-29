@@ -1,4 +1,5 @@
 import React from 'react';
+
 import SoundTapLogo from '../images/audio_tagger_logo.png';
 import RocketChatLogo from '../images/rocket.png';
 import PikapediaLogo from '../images/pokeball.png';
@@ -6,7 +7,6 @@ import PikapediaLogo from '../images/pokeball.png';
 const FeaturedProjects = () =>
   <div className='container-fluid'>
     <div className='container center'>
-
       <div className='row'>
         <div className='four columns'>
           <hr/>
@@ -72,7 +72,6 @@ const FeaturedProjects = () =>
       </div>
       <br/>
       <a href='work.html' className='btn btn-green'>View All Projects</a>
-
     </div>
   </div>
 
