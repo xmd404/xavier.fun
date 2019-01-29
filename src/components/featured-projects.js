@@ -1,4 +1,7 @@
 import React from 'react';
+import SoundTapLogo from '../images/audio_tagger_logo.png';
+import RocketChatLogo from '../images/rocket.png';
+import PikapediaLogo from '../images/pokeball.png';
 
 const FeaturedProjects = () =>
   <div className='container-fluid'>
@@ -9,7 +12,7 @@ const FeaturedProjects = () =>
           <hr/>
           <a href='https://xavier.fun/rocket' target='_blank'>
             <img 
-              src='./images/rocket.png'
+              src={ RocketChatLogo }
               alt='RocketChat Logo'
               style={{ width: '20%'}}
             />
@@ -30,7 +33,7 @@ const FeaturedProjects = () =>
           <hr/>
           <a href='https://xavier.fun/audio' target='_blank'>
             <img
-              src='./images/audio_tagger_logo.png'
+              src={ SoundTapLogo }
               alt='AudioTagger Logo'
               style={{ width: '22%'}}
             />
@@ -51,7 +54,7 @@ const FeaturedProjects = () =>
           <hr/>
           <a href='https://xavier.fun/pikapedia' target='_blank'>
             <img
-              src='./images/pokeball.png'
+              src={ PikapediaLogo }
               alt='Pikapedia Logo'
               style={{ width: '20%' }} />
             <br/><br/>
