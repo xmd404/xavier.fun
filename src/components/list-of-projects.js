@@ -4,6 +4,12 @@ import SoundTapLogo from '../images/audio_tagger_logo.png';
 import RocketChatLogo from '../images/rocket.png';
 import PikapediaLogo from '../images/pokeball.png';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fas);
+
 const ProjectList = () => (
   <div className="container-fluid" style={{ padding: '0 0 35px' }}>
     <ul id="id02" >
@@ -19,7 +25,7 @@ const ProjectList = () => (
                 <img
                   src={ RocketChatLogo }
                   alt="RocketChat Logo" 
-                  style={{ width: '20%'}} 
+                  style={{ width: '20%' }} 
                 />
                 <br/><br/>
                 <h4 className="center">
@@ -30,7 +36,7 @@ const ProjectList = () => (
               <p> 
                 <a href="https://xavier.fun/rocket" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
-                <a href="https://github.com/theWebsiteKid/rocketchat" target="_blank" className="black"><i className="fa fa-code"></i>&nbsp; Source</a>
+                <a href="https://github.com/theWebsiteKid/rocketchat" target="_blank" className="black"><FontAwesomeIcon icon={['fas', 'code']} />&nbsp; Source</a>
               </p>
             </li>
           </div>
@@ -55,7 +61,7 @@ const ProjectList = () => (
               <p> 
                 <a href="https://xavier.fun/audio" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
-                <a href="https://github.com/xduncan/audio-tagger" target="_blank" className="black"><i className="fa fa-code"></i>&nbsp; Source</a>
+                <a href="https://github.com/xduncan/audio-tagger" target="_blank" className="black"><FontAwesomeIcon icon={['fas', 'code']} />&nbsp; Source</a>
               </p>
             </li>
           </div>
@@ -80,7 +86,7 @@ const ProjectList = () => (
               <p> 
                 <a href="https://xavier.fun/pikapedia" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
-                <a href="https://github.com/theWebsiteKid/pikapedia" target="_blank" className="black"><i className="fa fa-code"></i>&nbsp; Source</a>
+                <a href="https://github.com/theWebsiteKid/pikapedia" target="_blank" className="black"><FontAwesomeIcon icon={['fas', 'code']} />&nbsp; Source</a>
               </p>
             </li>
           </div>
