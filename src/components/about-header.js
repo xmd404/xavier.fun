@@ -1,35 +1,40 @@
 import React from 'react';
-import { Link } from 'gatsby';
+
+import headshot from '../images/xavier_duncan_headshot.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+
+library.add(fab, far);
 
 const AboutHeader = () =>
   <div className='container-fluid' style={{ padding: '3.5em 0 1.5em' }}>
     <div className='container'>
-      <div className='row center'>
-        <div className='twelve columns'>
-          <h2 className='slide'>Xavier, aka <a href='http://thewebsitekid.firebaseapp.com' target='_blank' style={{ color: '#000' }}>theWebsiteKid<i className='fa fa-code fa-fw'></i></a></h2>
-          <h5 className='slide'>
-            <Link to='work' style={{ padding: '0.750em 0.750em' }}>
-              <u style={{ color: '#E70650' }}>
-                <span style={{ color: '#000' }}>
-                  Creator
-                </span>
-              </u>
-            </Link>
-            <a href='http://github.com/xduncan' target='_blank' style={{ padding: '0.750em 0.750em' }}>
-              <u style={{ color: '#9434B9' }}>
-                <span style={{ color: '#000' }}>
-                  Developer
-                </span>
-              </u>
-            </a>
-            <Link to='blog' style={{ padding: '0.750em 0.750em' }}>
-              <u style={{ color: '#4298C1' }}>
-                <span style={{ color: '#000' }}>
-                  Writer
-                </span>
-              </u>
-            </Link>
-          </h5>
+      <div className="row center">
+          <img 
+            src={ headshot }
+            alt='Headshot of Xavier Duncan'
+            width='100%'
+            height='auto'
+            style={{ padding:'0 0 10px', maxWidth:'400px' }}
+          />
+        <div className="twelve columns slide">
+          <a href="https://twitter.com/theWebsiteKid" target="_blank">
+            <FontAwesomeIcon className='fa-footer' icon={['fab', 'twitter']} />
+          </a>
+          <a href="https://instagram.com/cooperative.vision" target="_blank">
+            <FontAwesomeIcon className='fa-footer' icon={['fab', 'instagram']} />
+          </a>
+          <a href="https://www.linkedin.com/in/xduncan" target="_blank">
+            <FontAwesomeIcon className='fa-footer' icon={['fab', 'linkedin']} />
+          </a>
+          <a href="https://medium.com/@theWebsiteKid" target="_blank">
+            <FontAwesomeIcon className='fa-footer' icon={['fab', 'medium']} />
+          </a>
+          <a href="https://github.com/xduncan" target="_blank">
+            <FontAwesomeIcon className='fa-footer' icon={['fab', 'github']} />
+          </a>
         </div>
       </div>
     </div>

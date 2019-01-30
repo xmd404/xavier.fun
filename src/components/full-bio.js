@@ -30,5 +30,5 @@ const FullBio = () =>
       </div>
     </div>
   </div>
-
+  
 export default FullBio;

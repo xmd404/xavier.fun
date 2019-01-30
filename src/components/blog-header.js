@@ -1,7 +1,9 @@
 import React from 'react';
+import BlogList from './list-of-posts';
 
 const BlogPageHeader = () =>
-  <div className='container-fluid' style={{ padding: '3.5em 0 1.7em' }}>
+<div>
+  <div className='container-fluid' style={{ padding: '3.5em 0' }}>
     <div className='container'>
       <div className='row center'>
         <div className='eight columns offset-by-two columns'>
@@ -16,5 +18,7 @@ const BlogPageHeader = () =>
       </div>
     </div>
   </div>
+  <BlogList />
+</div>
 
 export default BlogPageHeader;

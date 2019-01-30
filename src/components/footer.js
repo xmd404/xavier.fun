@@ -15,7 +15,7 @@ const Footer = () =>
         <a href="https://twitter.com/theWebsiteKid" target="_blank">
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'twitter']} />
         </a>
-        <a href="https://instagram.com/theWebsiteKid" target="_blank">
+        <a href="https://instagram.com/cooperative.vision" target="_blank">
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'instagram']} />
         </a>
         <a href="https://www.linkedin.com/in/xduncan" target="_blank">
@@ -24,10 +24,12 @@ const Footer = () =>
         <a href="https://medium.com/@theWebsiteKid" target="_blank">
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'medium']} />
         </a>
-        <a href="https://github.com/theWebsiteKid" target="_blank">
+        <a href="https://github.com/xduncan" target="_blank">
           <FontAwesomeIcon className='fa-footer' icon={['fab', 'github']} />
         </a>
-        <p><a href="http://mnmlist.com/uncopyright-and-a-minimalist-mindset/" target="_blank" style={{ color: '#555' }}><u>uncopyright</u></a> &nbsp;•&nbsp; <FontAwesomeIcon icon={['far', 'hand-peace']} /> &nbsp;•&nbsp; thanks for visiting.</p>
+        <p>
+          <a href="http://mnmlist.com/uncopyright-and-a-minimalist-mindset/" target="_blank" style={{ color: '#555' }}><u>uncopyright</u></a> &nbsp;•&nbsp; <FontAwesomeIcon icon={['far', 'hand-peace']} /> &nbsp;•&nbsp; thanks for visiting.
+        </p>
       </div>
     </div>
   </footer>
