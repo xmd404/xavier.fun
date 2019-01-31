@@ -26,7 +26,7 @@ const ContactForm = () =>
               Message
               <textarea className='full-width' type='text' name='message'  placeholder='😄 Hi Xavier...' height='8' required></textarea>
               <input type='hidden' name='_next' value='http://xavierduncan.com/blog/thanks.html' />
-              <input type='hidden' name='_subject' value='+1 Subscribes! - XavierDuncan.com' />
+              <input type='hidden' name='_subject' value='New Message' />
             </label>
             <input type="hidden" name="form-name" value="contact" />
             <div data-netlify-recaptcha="true"></div>
