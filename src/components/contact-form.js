@@ -7,7 +7,7 @@ const ContactForm = () =>
       <div className='row'>
         <br/>
         <div className='eight columns offset-by-two columns'>
-          <form  id='subscribe' action='https://formspree.io/xduncan@protonmail.com' method='post' autocomplete='on'>
+          <form  name="contact" method='post' autocomplete='on' data-netlify='true'>
             <div className='row'>
               <div className='six columns'>
                 <label for='name'>
@@ -18,7 +18,7 @@ const ContactForm = () =>
               <div className='six columns'>
                 <label for='email'>
                   Your Email
-                  <input className='full-width' type='email' name='_replyto' id='email' placeholder='your@email.com' required />
+                  <input className='full-width' type='email' name='email' id='email' placeholder='your@email.com' required />
                 </label>
               </div>
             </div>
@@ -28,6 +28,7 @@ const ContactForm = () =>
               <input type='hidden' name='_next' value='http://xavierduncan.com/blog/thanks.html' />
               <input type='hidden' name='_subject' value='+1 Subscribes! - XavierDuncan.com' />
             </label>
+            <div data-netlify-recaptcha="true"></div>
             <button className='btn-green' type='submit'><i className='fa fa-send fa-fw'></i> &nbsp;Send</button>
           </form>
         </div>
