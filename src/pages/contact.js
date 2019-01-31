@@ -1,19 +1,13 @@
 import React from 'react';
 
-import BannerHeader from '../components/banner-header';
-import Navbar from '../components/navbar';
-import BannerFooter from '../components/banner-footer';
-import Footer from '../components/footer';
+import Header from '../components/header';
 import ContactForm from '../components/contact-form';
-import ContactHeader from '../components/contact-header';
+import Footer from '../components/footer';
 
 const ContactPage = () =>
   <div>
-    <BannerHeader />
-    <Navbar />
-    <ContactHeader />
+    <Header />
     <ContactForm />
-    <BannerFooter />
     <Footer />
   </div>
 

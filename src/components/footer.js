@@ -11,12 +11,9 @@ const Footer = () =>
   <footer>
     <div className="row center">
       <div className="twelve columns">
-        <h6>
-          <b>xavier duncan</b> &nbsp; | &nbsp; web developer
-        </h6>
-        <h6>
+        <p>
           <a href="http://mnmlist.com/uncopyright-and-a-minimalist-mindset/" target="_blank" style={{ color: '#555' }}><u>uncopyright</u></a> &nbsp;•&nbsp; <FontAwesomeIcon icon={['far', 'hand-peace']} /> &nbsp;•&nbsp; thanks for visiting.
-        </h6>
+        </p>
       </div>
     </div>
   </footer>

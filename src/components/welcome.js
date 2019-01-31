@@ -13,7 +13,8 @@ const Welcome = () =>
             alt='The Modern Web'
             width='85%'
             height='auto'
-            style={{ padding:'0 0 10px', maxWidth:'312px' }} />
+            style={{ padding:'0 0 10px', maxWidth:'312px' }} 
+          />
         </div>
       </div>
       <div className='row center'>
