@@ -7,7 +7,7 @@ const ContactForm = () =>
       <div className='row'>
         <br/>
         <div className='eight columns offset-by-two columns'>
-          <form  name="contact" method='post' autocomplete='on' data-netlify='true'>
+          <form  name="contact" method='post' autocomplete='on' data-netlify='true' data-netlify-honeypot="bot-field">
             <div className='row'>
               <div className='six columns'>
                 <label for='name'>
@@ -28,6 +28,7 @@ const ContactForm = () =>
               <input type='hidden' name='_next' value='http://xavierduncan.com/blog/thanks.html' />
               <input type='hidden' name='_subject' value='+1 Subscribes! - XavierDuncan.com' />
             </label>
+            <input type="hidden" name="form-name" value="contact" />
             <div data-netlify-recaptcha="true"></div>
             <button className='btn-green' type='submit'><i className='fa fa-send fa-fw'></i> &nbsp;Send</button>
           </form>
