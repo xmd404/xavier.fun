@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BannerHeader = () =>
-  <div className='container-fluid theList'>
+  <div className='container-fluid' style={{ backgroundColor: '#fff' }}>
     <div className='container'>
       <div className='row'>
         <div className='ten columns offset-by-one column'>

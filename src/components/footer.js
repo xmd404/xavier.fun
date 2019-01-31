@@ -11,25 +11,12 @@ const Footer = () =>
   <footer>
     <div className="row center">
       <div className="twelve columns">
-        <h6><b>xavier duncan</b> &nbsp; | &nbsp; web developer</h6>
-        <a href="https://twitter.com/theWebsiteKid" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'twitter']} />
-        </a>
-        <a href="https://instagram.com/cooperative.vision" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'instagram']} />
-        </a>
-        <a href="https://www.linkedin.com/in/xduncan" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'linkedin']} />
-        </a>
-        <a href="https://medium.com/@theWebsiteKid" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'medium']} />
-        </a>
-        <a href="https://github.com/xduncan" target="_blank">
-          <FontAwesomeIcon className='fa-footer' icon={['fab', 'github']} />
-        </a>
-        <p>
+        <h6>
+          <b>xavier duncan</b> &nbsp; | &nbsp; web developer
+        </h6>
+        <h6>
           <a href="http://mnmlist.com/uncopyright-and-a-minimalist-mindset/" target="_blank" style={{ color: '#555' }}><u>uncopyright</u></a> &nbsp;•&nbsp; <FontAwesomeIcon icon={['far', 'hand-peace']} /> &nbsp;•&nbsp; thanks for visiting.
-        </p>
+        </h6>
       </div>
     </div>
   </footer>

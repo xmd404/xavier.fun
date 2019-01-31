@@ -9,11 +9,8 @@ import AboutHeader from '../components/about-header';
 
 const AboutPage = () =>
   <div>
-    <BannerHeader />
-    <Navbar />
     <AboutHeader />
     <FullBio />
-    <BannerFooter />
     <Footer />
   </div>
 

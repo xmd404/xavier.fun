@@ -12,13 +12,13 @@ const AboutHeader = () =>
   <div className='container-fluid' style={{ padding: '3.5em 0 1.5em' }}>
     <div className='container'>
       <div className="row center">
-          <img 
-            src={ headshot }
-            alt='Headshot of Xavier Duncan'
-            width='100%'
-            height='auto'
-            style={{ padding:'0 0 10px', maxWidth:'400px' }}
-          />
+        <img 
+          src={ headshot }
+          alt='Headshot of Xavier Duncan'
+          width='100%'
+          style={{ padding:'0 0 15px', maxWidth:'500px' }}
+        />
+        <h6><b>xavier duncan</b> &nbsp; | &nbsp; web developer</h6>
         <div className="twelve columns slide">
           <a href="https://twitter.com/theWebsiteKid" target="_blank">
             <FontAwesomeIcon className='fa-footer' icon={['fab', 'twitter']} />

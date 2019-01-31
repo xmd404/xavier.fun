@@ -18,8 +18,6 @@ const Navbar = () =>
             {` `}
             <Link to='work'>work</Link>
             {` `}
-            <Link to='about'>about</Link>
-            {` `}
             <Link to='contact'>contact</Link>
           </nav>
         </div>

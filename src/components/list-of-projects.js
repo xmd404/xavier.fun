@@ -11,12 +11,11 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 library.add(fas);
 
 const ProjectList = () => (
-  <div className="container-fluid" style={{ padding: '0 0 35px' }}>
+  <div className="container-fluid dark-bg" style={{ padding: '0 0 35px' }}>
     <ul id="id02" >
       <div className="container">
         {/* <!-- Row #1 --> */}
         <div className="row center">
-
           {/* <!-- RocketChat --> */}
           <div className="four columns">
             <li>
@@ -32,7 +31,6 @@ const ProjectList = () => (
                   RocketChat
                 </h4>
               </a>
-              <h6 className="">A lightning fast messaging app built with Angular 4 and Firebase.</h6>
               <p> 
                 <a href="https://xavier.fun/rocket" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
@@ -54,10 +52,9 @@ const ProjectList = () => (
                 />
                 <br/><br/>
                 <h4 className="center">
-                  AudioTagger
+                  SoundTap
                 </h4>
               </a>
-              <h6 className="">An HTML5 widget that binds comments to audio file time-stamps.</h6>
               <p> 
                 <a href="https://xavier.fun/audio" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
@@ -82,7 +79,6 @@ const ProjectList = () => (
                   Pikapedia
                 </h4> 
               </a>
-              <h6 className="">A full featured Pokedex built with Angular 4, Firebase, and PokeAPI.</h6>
               <p> 
                 <a href="https://xavier.fun/pikapedia" target="_blank" className="black">🌎&nbsp; Demo</a> 
                 &nbsp; | &nbsp; 
