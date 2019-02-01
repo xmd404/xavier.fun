@@ -13,7 +13,7 @@ const Header = () =>
             src={ Headshot }
             alt='Headshot of Xavier Duncan'
             width='100%'
-            style={{ padding:'0 0 15px', maxWidth:'285px', borderRadius:'50%' }}
+            style={{ padding:'0 0 15px', maxWidth:'270px', borderRadius:'50%' }}
           />
           <h6><b>xavier duncan</b> &nbsp; | &nbsp; web developer</h6>
         </Link>
