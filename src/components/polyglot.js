@@ -1,12 +1,12 @@
 // Repsonsible for polyglot greeting on home page
-$(document).ready(() => ()
+$(document).ready(function(){
   rotation = [
-    "Hola.",
-    "Bonjour.",
+    "hola.",
+    "bonjour.",
     "你 好",
-    "Hallo.",
+    "hallo.",
     "مرحبا",
-    "Hello."
+    "hello."
   ]
 
   var i = 0;
