@@ -12,7 +12,7 @@ const Bio = () =>
           <h1 style={{ textAlign: 'center' }}><span id='options'>hello</span></h1>
           <br/>
           <h6 style={{ textAlign: 'left' }}>
-            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, <Link to='design'>design</Link>, <Link to='blog'>writing</Link>, and <a href='http://coopvision.us' target='_blank' rel='noopener noreferrer'>building great product</a>. Have ideas and want to build something cool? <Link to='contact'>Get in touch</Link>.
+            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, <Link to='design'>design</Link>, <Link to='blog'>writing</Link>, and <Link to='development'>building things</Link>. Have ideas and want to create something cool? <Link to='contact'>Get in touch</Link>.
           </h6>
           <Signature />
         </div>
