@@ -12,7 +12,18 @@ const Bio = () =>
           <h1 style={{ textAlign: 'center' }}><span id='options'>hello</span></h1>
           <br/>
           <h6 style={{ textAlign: 'left' }}>
-            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, <Link to='design'>design</Link>, <Link to='blog'>writing</Link>, and <Link to='development'>building things</Link>. Have ideas and want to create something cool? <Link to='contact'>Get in touch</Link>.
+            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, <Link to='design'>design</Link>, <Link to='blog'>writing</Link>, and <Link to='development'>building</Link>. Interested in having me work on your next project?
+            <br/><br/>
+            <a href='https://calendly.com/xavierduncan' target='_blank'>
+              <button className='btn-blue'>
+                Schedule a call
+              </button>
+            </a>
+            <Link to='contact'>
+              <button className='btn-green'>
+                Send an email
+              </button>
+            </Link>
           </h6>
           <Signature />
         </div>
