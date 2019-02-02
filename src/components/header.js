@@ -5,7 +5,7 @@ import Headshot from '../images/xavier_duncan_headshot.png';
 import SocialMedia from '../components/social-media';
 
 const Header = () =>
-  <div className='container-fluid' style={{ padding:'3.5em 0 1.5em' }}>
+  <div className='container-fluid' style={{ padding:'4.0em 0 1.5em' }}>
     <div className='container'>
       <div className="row center">
         <Link to='/' style={{ color:'#000' }}>
