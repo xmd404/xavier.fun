@@ -7,7 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fab);
 
 const SocialMedia = () =>
-  <div className='twelve columns slide'>
+  <div className='twelve columns'>
     <a href='https://twitter.com/xmd404' target='_blank'>
       <FontAwesomeIcon className='fa-footer' icon={['fab', 'twitter']} />
     </a>
