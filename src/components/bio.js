@@ -21,7 +21,7 @@ const Bio = () =>
             </a>
             <Link to='contact'>
               <button className='btn-green'>
-                Send an email
+                Email
               </button>
             </Link>
           </h6>
