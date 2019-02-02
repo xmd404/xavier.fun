@@ -16,12 +16,12 @@ const Bio = () =>
             <br/><br/>
             <a href='https://calendly.com/xavierduncan' target='_blank'>
               <button className='btn-blue'>
-                Schedule a call
+                📲 &nbsp;Schedule a call
               </button>
             </a>
             <Link to='contact'>
               <button className='btn-green'>
-                Email
+                ⚡️ &nbsp;Email
               </button>
             </Link>
           </h6>
