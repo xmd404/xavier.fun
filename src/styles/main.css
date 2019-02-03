@@ -1,5 +1,5 @@
 /*
-* xo-skeleton v1.0.1
+* bare-css v1.0
 * Based on Skeleton v2.0.4 by Dave Gamache (getskeleton.com)
 * Includes normalize.css v3.0.2 by Nicolas Gallagher + Jonathan Neal (git.io/normalize)
 * Also includes the Raleway font by Google (google.com/fonts)
@@ -597,7 +597,7 @@ ul .list {
 
 footer {
   background: #EEE;
-  padding: 20px 0 15px;
+  padding: 10px 0 7px;
 }
 
 footer h6, p {
