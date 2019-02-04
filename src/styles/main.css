@@ -564,27 +564,6 @@ there.
 Note: For performance, add additional page styles below instead of using a
 seperate style sheet.
 */
-
-#logo {
-  padding: 1px 10px;
-  border: 1px solid #000;
-  border-radius: 20px;
-  color: #000;
-}
-
-nav {
-  display: inline;
-}
-
-nav li, nav a, nav i {
-  text-decoration: none;
-  padding: 0 3px;
-}
-
-ul .list {
-  text-decoration: none;
-}
-
 .fa-footer {
   color: #555;
   padding: 0.5em 1em;
