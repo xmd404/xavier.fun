@@ -14,9 +14,6 @@ const SocialMedia = () =>
     <a href='https://medium.com/@xmd404' target='_blank'>
       <FontAwesomeIcon className='fa-footer' icon={['fab', 'medium']} />
     </a>
-    <a href='https://instagram.com/xmd404' target='_blank'>
-      <FontAwesomeIcon className='fa-footer' icon={['fab', 'instagram']} />
-    </a>
     <a href='https://linkedin.com/in/xduncan' target='_blank'>
       <FontAwesomeIcon className='fa-footer' icon={['fab', 'linkedin']} />
     </a>
