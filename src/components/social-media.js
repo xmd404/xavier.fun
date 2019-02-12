@@ -1,7 +1,7 @@
 import React from 'react';
 
 const linkStyle = {
-  padding: '0 0.25em',
+  padding: '0 0.5em',
   color: '#000',
 };
 
