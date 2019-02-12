@@ -5,9 +5,6 @@ const SocialMedia = () =>
     <a href='https://twitter.com/xmd404' target='_blank'>
       <p>twitter</p>
     </a>
-    <a href='https://medium.com/@xmd404' target='_blank'>
-      <p>medium</p>
-    </a>
     <a href='https://github.com/xmd404' target='_blank'>
       <p>github</p>
     </a>
