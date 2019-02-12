@@ -25,7 +25,7 @@ const Header = () =>
       <div className="row center">
         <Link to='/' style={linkStyle}>
           <img 
-            src={ headshot }
+            src={headshot}
             alt='Headshot of Xavier Duncan'
             style={headshotStyle}
           />

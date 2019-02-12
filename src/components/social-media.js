@@ -1,20 +1,19 @@
 import React from 'react';
 
-const inlineText = {
-  display: 'inline',
+const linkStyle = {
   padding: '0 0.25em',
-  color: '#D5D5D5',
+  color: '#000',
 };
 
 const SocialMedia = () =>
-  <div className='twelve columns'style={inlineText}>
-    <a href='https://twitter.com/xmd404' target='_blank'>
+  <div className='twelve columns'>
+    <a href='https://twitter.com/xmd404' target='_blank' style={linkStyle}>
       twitter
     </a>
-    <a href='https://github.com/xmd404' target='_blank'>
+    <a href='https://github.com/xmd404' target='_blank' style={linkStyle}>
       github
     </a>
-    <a href='https://linkedin.com/in/xduncan' target='_blank'>
+    <a href='https://linkedin.com/in/xduncan' target='_blank' style={linkStyle}>
       linkedin
     </a>
   </div>
