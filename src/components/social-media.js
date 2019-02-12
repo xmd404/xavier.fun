@@ -1,15 +1,19 @@
 import React from 'react';
 
+const inlineText = {
+  display: 'inline',
+};
+
 const SocialMedia = () =>
-  <div className='twelve columns'style={{ display: 'inline' }}>
+  <div className='twelve columns'style={inlineText}>
     <a href='https://twitter.com/xmd404' target='_blank'>
-      <p>twitter</p>
+      twitter
     </a>
     <a href='https://github.com/xmd404' target='_blank'>
-      <p>github</p>
+      github
     </a>
     <a href='https://linkedin.com/in/xduncan' target='_blank'>
-      <p>linkedin</p>
+      linkedin
     </a>
   </div>
 
