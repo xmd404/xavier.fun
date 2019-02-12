@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SocialMedia = () =>
-  <div className='twelve columns'>
+  <div className='twelve columns'style={{ display: 'inline' }}>
     <a href='https://twitter.com/xmd404' target='_blank'>
       <p>twitter</p>
     </a>
