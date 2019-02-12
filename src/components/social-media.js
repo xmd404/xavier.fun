@@ -2,6 +2,8 @@ import React from 'react';
 
 const inlineText = {
   display: 'inline',
+  padding: '0 0.25em',
+  color: '#D5D5D5',
 };
 
 const SocialMedia = () =>
