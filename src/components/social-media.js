@@ -7,7 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fab);
 
 const linkStyle = {
-  padding: '0 0.5em',
+  padding: '0 1.25em',
   color: '#000',
 };
 
