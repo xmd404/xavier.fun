@@ -12,7 +12,6 @@
 
 
 /* Table of contents
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“
 - Normalize
 - Grid
 - Base Styles
@@ -28,13 +27,10 @@
 - Clearing
 - Media Queries
 - Additional CSS (For performance, put all additional styles here.)
-  * Font Awesome / Glyphicons (if any)
-  * CSS Animations (if any)
 */
 
 
-/* Normalize
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Normalize */
 html {font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
 body {margin: 0; padding: 0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
@@ -77,9 +73,7 @@ optgroup {font-weight: bold;}
 table {border-collapse: collapse; border-spacing: 0;}
 td,th {padding: 0;}
 
-
-/* Grid
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Grid */
 .container {
   position: relative;
   width: 100%;
@@ -164,9 +158,7 @@ td,th {padding: 0;}
 
 }
 
-
-/* Base Styles
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Base Styles */
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
@@ -178,8 +170,7 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* Typography
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -247,18 +238,14 @@ p {
   src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v11/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
-
-/* Links
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Links */
 a {
   color: #1EAEDB;
   text-decoration: none; }
 a:hover {
   color: #0FA0CE; }
 
-
-/* Buttons
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Buttons */
 .btn,
 button,
 input[type="submit"],
@@ -339,9 +326,7 @@ input[type="reset"].btn-green:focus,
 input[type="button"].btn-green:focus { 
   box-shadow: 1px 1px 1px #888; }
 
-
-/* Forms
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Forms */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -403,8 +388,7 @@ label > .label-body {
   font-weight: normal; }
 
 
-/* Lists
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Lists */
 ul {
   list-style: circle inside; }
 ol {
@@ -422,8 +406,7 @@ li {
   margin-bottom: 1rem; }
 
 
-/* Code
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Code */
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
@@ -437,9 +420,7 @@ pre > code {
   padding: 1rem 1.5rem;
   white-space: pre; }
 
-
-/* Tables
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Tables */
 th,
 td {
   padding: 12px 15px;
@@ -452,9 +433,7 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
-
-/* Spacing
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Spacing */
 button,
 .btn {
   margin-bottom: 1rem; }
@@ -475,8 +454,7 @@ form {
   margin-bottom: 2.5rem; }
 
 
-/* Utilities
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Utilities */
 /* Make element full width */
 .full-width {
   width: 100%;
@@ -498,35 +476,13 @@ form {
 .justify {
   text-align: justify; }
 
-/* Hide elements */
-@media (max-width: 400px) {
-  .hide.mobile {
-    display: none !important; }}
-@media (max-width: 550px) and (min-width: 400px) {
-  .hide.phablet /* (point when grid becomes active) */ {
-    display: none !important; }}
-@media (max-width: 750px) and (min-width: 550px) {
-  .hide.tablet {
-    display: none !important; }}
-@media (max-width: 1200px) and (min-wdith: 750px) {
-  .hide.desktop {
-    display: none !important; }}
-@media (min-width: 1200px) {
-  .hide.desktop-hd {
-    display: none !important; }}
 
-
-/* Misc
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Misc */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
-
-
-/* Clearing
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 /* Self Clearing Goodness */
 .container:after,
@@ -536,50 +492,16 @@ hr {
   display: table;
   clear: both; }
 
-
-/* Media Queries
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-/* Larger than tablet */
-@media (min-width: 750px) {}
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-
-/* Additional CSS
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
-/*
-Note: For performance, add additional page styles below instead of using a
-seperate style sheet.
-*/
+/* Additional CSS */
 .fa-footer {
   color: #555;
   padding: 0.5em 1em;
-  font-size: 125%;
-}
-
+  font-size: 125%; }
 .black {
-  color: #000;
-}
-
+  color: #000; }
 footer {
   background: #EEE;
-  padding: 10px 0 7px;
-}
-
+  padding: 10px 0 7px; }
 footer h6, p {
   margin: 10px 0 13px;
-  color: #000;
-}
+  color: #000; }
