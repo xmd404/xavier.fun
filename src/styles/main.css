@@ -102,7 +102,6 @@ td,th {padding: 0;}
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
-
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
@@ -116,7 +115,7 @@ td,th {padding: 0;}
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
-
+  
   /* Offsets */
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }

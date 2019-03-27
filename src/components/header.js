@@ -14,7 +14,7 @@ const linkStyle = {
 
 const headshotStyle = {
   padding: '0 0 15px',
-  maxWidth: '235px',
+  maxWidth: '215px',
   borderRadius:'50%',
   width: '100%',
 };
