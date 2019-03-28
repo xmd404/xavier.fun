@@ -1,13 +1,10 @@
 /*
-* bare-css v1.0
+* bare-css v0.0.1 by Xaiver Duncan (www.xavier.fun)
 * Based on Skeleton v2.0.4 by Dave Gamache (getskeleton.com)
 * Includes normalize.css v3.0.2 by Nicolas Gallagher + Jonathan Neal (git.io/normalize)
 * Also includes the Raleway font by Google (google.com/fonts)
-* Copyright 2016 - 2019, Xavier Duncan
-* www.xavierduncan.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 05/24/2016
+* uncopyright 2016-2019 (mnmlist.com/uncopyright-and-a-minimalist-mindset)
+* 05/24/2016, 02/28/19
 */
 
 /* Table of contents
@@ -466,15 +463,13 @@ hr {
   clear: both; }
 
 /* Additional CSS */
-.fa-footer {
+footer {
+  background: #EEE;
+  padding: 5px 0 2px; }
+footer > h6, p {
+  margin: 10px 0 13px;
+  color: #000; }
+footer > .fa {
   color: #555;
   padding: 0.5em 1em;
   font-size: 125%; }
-.black {
-  color: #000; }
-footer {
-  background: #EEE;
-  padding: 5px 0 3px; }
-footer h6, p {
-  margin: 10px 0 13px;
-  color: #000; }
