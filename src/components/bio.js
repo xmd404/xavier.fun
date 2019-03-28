@@ -20,7 +20,7 @@ const Bio = () =>
           <h1 style={polyStyle}><span id='options'>hello</span></h1>
           <br/>
           <h6>
-            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, design, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, <a href='https://is.gd/211AS4' target='_blank'>#FOSS</a>, and <a href='https://github.com/xmd404' target='_blank'>building great software</a>. Interested in having me join your project?
+            I'm Xavier, a Software Engineer & UX Developer currently based in Atlanta. I’m obsessed with all things JavaScript, design, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://github.com/xmd404' target='_blank'>building great software</a>. Interested in having me join your project?
             <br/><br/>
             <a href='https://calendly.com/xavierduncan' target='_blank'>
               <button className='btn-blue'>
