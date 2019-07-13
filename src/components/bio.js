@@ -17,12 +17,10 @@ const Bio = () =>
       <div className='row'>
         <br/>
         <div className='eight columns offset-by-two columns'>
-          <h1 style={polyStyle}><span id='options'>hello</span></h1>
-          <br/>
           <h6>
             I'm Xavier, a Software Engineer & UX Developer currently based in <s>Atlanta</s> Austin. I’m obsessed with all things JavaScript, design, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://github.com/xmd404' target='_blank'>building great software</a>. Interested in having me join your project?
             <br/><br/>
-            <a href='https://calendly.com/xavierduncan' target='_blank'>
+            <a href='https://calendly.com/xavierduncan' target='_blank' rel="noopener noreferrer">
               <button className='btn-blue'>
                 📲 &nbsp;Schedule a call
               </button>

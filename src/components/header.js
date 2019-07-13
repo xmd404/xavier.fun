@@ -29,7 +29,7 @@ const Header = () =>
             alt='Headshot of Xavier Duncan'
             style={headshotStyle}
           />
-          <h6><b>xavier duncan</b> &nbsp; | &nbsp; web developer</h6>
+          <h6><b>Xavier Marcus Duncan</b> &nbsp; | &nbsp; Software Engineer</h6>
         </Link>
         <SocialMedia />
       </div>
