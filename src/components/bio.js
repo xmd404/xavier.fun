@@ -32,6 +32,7 @@ const Bio = () =>
             </Link>
           </h6>
           <Signature />
+          <SocialMedia />
         </div>
       </div>
     </div>

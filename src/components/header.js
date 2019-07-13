@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import headshot from '../images/xavier_duncan_headshot.png';
-import SocialMedia from '../components/social-media';
 
 const divStyle = {
   padding: '4.0em 0 1.5em',
@@ -32,10 +31,9 @@ const Header = () =>
           <h6>
             <b>Xavier Marcus Duncan</b>
             <br/>
-            👾 Software Engineer
+            👾 &nbsp; Software Engineer
           </h6>
         </Link>
-        <SocialMedia />
       </div>
     </div>
   </div>
