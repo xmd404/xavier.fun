@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Xavier Marcus Duncan | Software Engineer",
-    description: "✨ open-sourcerer.",
-    author: "@xmd404",
-    url: "https://www.doe.com", // No trailing slash allowed!
-    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@oxmd404",
+    title: `Xavier Marcus Duncan | Software Engineer`,
+    description: `✨ open-sourcerer.`,
+    author: `@xmd404`,
+    url: `https://www.doe.com`, // No trailing slash allowed!
+    image: `/images/snape.jpg`, // Path to your image you placed in the 'static' folder
+    twitterUsername: `@xmd404`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
