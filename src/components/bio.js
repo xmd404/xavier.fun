@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Signature from '../components/signature';
+import SocialMedia from '../components/social-media';
 
 const divStyle = {
   padding: '0 0 35px',
