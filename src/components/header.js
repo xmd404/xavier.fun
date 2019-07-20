@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import SocialMedia from '../components/social-media';
 
 import headshot from '../images/xavier_duncan_headshot.png';
 
@@ -30,6 +31,7 @@ const Header = () =>
           />
           <h6>
             <b>Xavier Marcus Duncan</b>
+            <SocialMedia />
           </h6>
         </Link>
       </div>
