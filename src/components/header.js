@@ -29,9 +29,6 @@ const Header = () =>
             alt='Headshot of Xavier Duncan'
             style={headshotStyle}
           />
-          <h6>
-            Xavier Marcus Duncan
-          </h6>
         </Link>
         <SocialMedia />
       </div>
