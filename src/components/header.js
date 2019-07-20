@@ -30,6 +30,7 @@ const Header = () =>
             style={headshotStyle}
           />
         </Link>
+        <br/>
         <SocialMedia />
       </div>
     </div>
