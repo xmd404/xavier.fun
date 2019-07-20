@@ -30,8 +30,6 @@ const Header = () =>
           />
           <h6>
             <b>Xavier Marcus Duncan</b>
-            <br/>
-            👾 &nbsp; Software Engineer
           </h6>
         </Link>
       </div>
