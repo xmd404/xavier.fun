@@ -30,7 +30,7 @@ const Header = () =>
             style={headshotStyle}
           />
           <h6>
-            <b>Xavier Marcus Duncan</b>
+            Xavier Marcus Duncan
           </h6>
         </Link>
         <SocialMedia />
