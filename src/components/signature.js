@@ -2,7 +2,7 @@ import React from 'react';
 import signature from '../images/signature.png';
 
 const Signature = () =>
-  <div>
+  <div style={{'padding: 0'}}>
     <h6>
       Cheers,
       <br/>
