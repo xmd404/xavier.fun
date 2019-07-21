@@ -12,7 +12,7 @@ const Signature = () =>
         width='110px'
       />
       <br/>
-      Xavier Marcus Duncan
+      Xavier M. Duncan
     </h6>
   </div>
 
