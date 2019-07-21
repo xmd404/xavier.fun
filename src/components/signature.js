@@ -13,6 +13,8 @@ const Signature = () =>
       />
       <br/>
       Xavier Duncan
+      <br/>
+      💥 breaking things.
     </h6>
   </div>
 
