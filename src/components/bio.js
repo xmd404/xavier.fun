@@ -18,7 +18,7 @@ const Bio = () =>
         <br/>
         <div className='eight columns offset-by-two columns'>
           <h6>
-            Software Engineer + Product Designer currently based in ATX. I’m obsessed with all things JavaScript, design, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://github.com/xmd404' target='_blank'>building great software</a>. Interested in having me join your project?
+            Software Engineer + Product Designer currently based in ATX. I’m obsessed with all things JavaScript, design, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, & <a href='https://github.com/xmd404' target='_blank'>building great products</a>. Interested in having me join your project?
             <br/><br/>
             <a href='https://calendly.com/xavierduncan' target='_blank' rel="noopener noreferrer">
               <button className='btn-blue'>
