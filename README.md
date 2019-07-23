@@ -1,5 +1,6 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+[![CodeFactor](https://www.codefactor.io/repository/github/xmd404/xavier.fun/badge)](https://www.codefactor.io/repository/github/xmd404/xavier.fun)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/841212cf-1c1c-49fd-a364-5ef8a2501ba8/deploy-status)](https://app.netlify.com/sites/distracted-engelbart-66846f/deploys)
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
