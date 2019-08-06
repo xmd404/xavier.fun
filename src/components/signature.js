@@ -2,7 +2,7 @@ import React from 'react';
 import signature from '../images/signature.png';
 
 const Signature = () =>
-  <div style={{'padding: 0'}}>
+  <div>
     <h6>
       Cheers,
       <br/>
@@ -13,7 +13,6 @@ const Signature = () =>
       />
       <br/>
       Xavier Duncan
-      <p><i>💥 breaking things.</i></p>
     </h6>
   </div>
 
