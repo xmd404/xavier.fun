@@ -26,7 +26,7 @@ const Header = () =>
         <Link to='/' style={linkStyle}>
           <img 
             src={headshot}
-            alt='Headshot of Xavier Duncan'
+            alt='Xavier Marcus Duncan\'s headshot'
             style={headshotStyle}
           />
         </Link>
