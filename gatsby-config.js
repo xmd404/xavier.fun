@@ -3,8 +3,8 @@ module.exports = {
     title: `Xavier Marcus Duncan | Software Engineer`,
     description: `✨ open-sourcerer.`,
     author: `@xmd404`,
-    url: `https://www.doe.com`, // No trailing slash allowed!
-    image: `/images/snape.jpg`, // Path to your image you placed in the 'static' folder
+    baseUrl: `https://www.xavier.fun`, // No trailing slash allowed!
+    image: `/images/xavier_duncan_headshot.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@xmd404`,
   },
   plugins: [
@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/modernjs.png`, // This path is relative to the root of the site.
+        icon: `src/images/xavier_duncan_headshot.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
