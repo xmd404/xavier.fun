@@ -8,7 +8,7 @@ const Publications = () => (
           <h6>Thanks for reaching out! Here's some of my recent publications in the meantime 🧐</h6>
 					<ul style={{ listStyle: 'none', padding: 0 }}>
 						<li>
-							2016 &nbsp; 
+							<b>2016</b> &nbsp; 
               <a 
                 href='https://medium.com/@XMD404/why-a-career-in-web-development-f2eee2d5f4d8'
                 target='_blank'>
