@@ -5,7 +5,7 @@ const Publications = () => (
 		<div className="container">
 			<div className="row">
 				<div className="eight columns offset-by-two columns">
-          <h6>Thanks for reaching out! Read one of my recent publicatinos in the meantime.</h6>
+          <h6>Thanks for reaching out! Here's some of my recent publications in the meantime 🧐</h6>
 					<ul style={{ listStyle: 'none', padding: 0 }}>
 						<li>
 							2016 &nbsp; 
