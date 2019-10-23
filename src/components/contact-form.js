@@ -24,7 +24,7 @@ const ContactForm = () =>
             </div>
             <label for='message'>
               Message:
-              <textarea className='full-width' type='text' name='message'  placeholder='😄 Hi Xavier...' height='8' required></textarea>
+              <textarea className='full-width' type='text' name='message'  placeholder='👋🏼 &nbsp; Hi Xavier...' height='8' required></textarea>
               <input type='hidden' name='_next' value='http://xavierduncan.com/blog/thanks.html' />
               <input type='hidden' name='_subject' value='New Message' />
             </label>
