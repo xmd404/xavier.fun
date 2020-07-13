@@ -17,9 +17,11 @@ const Bio = () =>
       <div className='row'>
         <div className='eight columns offset-by-two columns'>
           <h6>
-            Engineer, founder, & angel investor based in ATX. I’m obsessed with all things venture, photography, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://peace.vc' target='_blank'>collaborating on projects that shape the world.</a>.
+            Engineer, founder, & angel investor based in ATX.
             <br/><br/>
-            Currently building <a href="https://mobiletechrx.com">MTRX</a> & <a href="https://peace.vc">Peace Ventures</a>.
+            I’m obsessed with all things venture, photography, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://peace.vc' target='_blank'>collaborating on projects that shape the world</a>.
+            <br/><br/>
+            Currently building <a href="https://mobiletechrx.com">MTRX</a>, <a href="https://peace.vc">Peace Ventures</a>, & <a href="https://twitter.com/search?q=%23votewithdollars&src=typed_query">#VoteWithDollars</a>.
             <br/><br/>
             Interested in having me join your project?
             <br/><br/>
