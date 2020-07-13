@@ -21,7 +21,7 @@ const Bio = () =>
             <br/><br/>
             I’m obsessed with all things venture, photography, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and <a href='https://peace.vc' target='_blank'>collaborating on projects that shape the world</a>.
             <br/><br/>
-            Currently building <a href="https://mobiletechrx.com">MTRX</a>, <a href="https://peace.vc">Peace Ventures</a>, & <a href="https://twitter.com/search?q=%23votewithdollars&src=typed_query">#VoteWithDollars</a>.
+            Currently building <a href="https://mobiletechrx.com" target='_blank'>MTRX</a>, <a href="https://peace.vc" target='_blank'>Peace Ventures</a>, & <a href="https://twitter.com/search?q=%23votewithdollars&src=typed_query" target='_blank'>#VoteWithDollars</a>.
             <br/><br/>
             Interested in having me join your project?
             <br/><br/>
