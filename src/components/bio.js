@@ -23,7 +23,7 @@ const Bio = () =>
             <br/><br/>
             Currently building: <a href="https://mobiletechrx.com" target='_blank'>MTRX</a>, <a href="https://peace.vc" target='_blank'>Peace Ventures</a>, & <a href="https://twitter.com/search?q=%23votewithdollars&src=typed_query" target='_blank'>#VoteWithDollars</a>.
             <br/><br/>
-            Interested in having me join your project? Shoot me an <a href="mailto:xmd404@pm.me">email</a> or <a href="https://twitter.com/xmd404">DM</a> ✌🏽
+            Interested in having me join your project? Shoot me an <a href="mailto:xmd404@pm.me">email</a> or <a href="https://twitter.com/xmd404" target="_blank">DM</a> ✌🏽
             <br/><br/>
             {/* <a href='https://calendly.com/xavierduncan' target='_blank' rel="noopener noreferrer">
               <button className='btn-blue'>
