@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import SocialMedia from '../components/social-media';
 
-import headshot from '../images/xavier_duncan_headshot.png';
+import headshot from '../images/Xavier_Marcus_Duncan.png';
 
 const divStyle = {
   padding: '4.0em 0 1.5em',
@@ -26,7 +26,7 @@ const Header = () =>
         <Link to='/' style={linkStyle}>
           <img 
             src={headshot}
-            alt="Xavier Marcus Duncan's headshot"
+            alt="Xavier Marcus Duncan"
             style={headshotStyle}
           />
         </Link>
