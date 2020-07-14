@@ -8,11 +8,11 @@ const Signature = () =>
       <br/>
       <img 
         src={ signature }
-        alt="Xavier Marcus Duncan's signature"
+        alt="Xavier Marcus Duncan's Signature"
         width='110px'
       />
       <br/>
-      Xavier Duncan
+      Xavier Marcus Duncan
     </h6>
   </div>
 
