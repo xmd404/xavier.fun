@@ -21,7 +21,7 @@ const Bio = () =>
             <br/><br/>
             I’m obsessed with all things venture, photography, <a href='https://medium.com/@xmd404' target='_blank'>writing</a>, and collaborating on projects that shape the world.
             <br/><br/>
-            Currently building: <a href="https://mobiletechrx.com" target='_blank'>MTRX</a>, <a href="https://peace.vc" target='_blank'>Peace Ventures</a>, & <a href="https://twitter.com/search?q=%23votewithdollars&src=typed_query" target='_blank'>#VoteWithDollars</a>.
+            Currently building: <a href="https://mobiletechrx.com" target='_blank'>MTRX</a>, <a href="https://peace.vc" target='_blank'>Peace Ventures</a>, & <a href="https://votewithdollars.to/change-the-world" target='_blank'>#VoteWithDollars</a>.
             <br/><br/>
             Shoot me an <a href="mailto:xmd404@pm.me">email</a> or <a href="https://twitter.com/xmd404" target="_blank">DM</a>, let's break things 💥
             {/* <a href='https://calendly.com/xavierduncan' target='_blank' rel="noopener noreferrer">
