@@ -27,7 +27,7 @@ const Bio = () => (
             , and collaborating on projects that shape the world.
             <br />
             <br />
-            Currently building: <a href="#">Ethni.ca</a> &{' '}
+            Currently building: <a href="https://ethni.ca" target="_blank">Ethni.ca</a> &{' '}
             <a href="https://peace.vc" target="_blank">
               Peace Ventures
             </a>
